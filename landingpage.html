@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://res.cloudinary.com/devsjk8xp/image/upload/v1706372405/logo1_zozyzi.jpg" type="image/x-icon">
+    <title>Link Guard-the quintent</title>
+    
+    <style>
+
+        
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: #ecf0f1;
+            display: flex;
+            
+            height: 100vh;
+            background-image:url('https://res.cloudinary.com/devsjk8xp/image/upload/v1706286087/newbck_sg65va.jpg');
+            background-size:cover;
+            background-repeat: no-repeat;
+            background-attachment:fixed;
+         }
+
+       header{
+          float: left;
+          font-size: medium;
+           }
+
+       .div1{
+          text-decoration: none;
+          display: flex;
+          padding-left: 700px;
+          justify-content: flex-end;
+          margin-right: 20px;
+          margin-left: auto;
+          float: right;
+        }
+
+ 
+        .div1 a {
+            text-decoration: none;
+            color: white;
+            padding:10px;
+            margin:10px;
+            
+        }
+        
+        .div2{
+            float: left;
+            display:block;
+         
+        }
+        
+        .login-container {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 300px;
+            text-align:center;
+            position: absolute;
+            top: 50%;
+            left: 70%;
+            transform: translate(-50%, -50%);
+            
+         }
+          
+         .login-header {
+            background: #3498db;
+            color: #fff;
+            padding: 20px;
+        }
+
+        .login-form {
+            padding: 20px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            box-sizing: border-box;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #3498db;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .forgot-password {
+            margin-top: 10px;
+            color: #3498db;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .center-content {
+            position: absolute;
+            top: 30%;
+            right: 60%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: #fff;
+            font-size: 24px;
+            color:#f3c90c;
+            font-style: oblique;
+            animation: floatAnimation 3s infinite;
+        }
+
+        .signup-link{
+            position: absolute;
+            top: 80%;
+            right: 3%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: #fff;
+            font-size: 24px;
+            color:#f3c90c;
+            font-style: oblique;
+        }
+        @keyframes floatAnimation {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+    </style>
+ </head>
+<body>
+    <header> 
+        <h1> Link Guard</h1>
+    </header>
+<div class="div1">
+    
+        <a href="home.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="features.html">Features</a>
+        
+    </div>
+
+<div class="login-container">
+    
+    <div class="login-header">
+        <h2>Login</h2>
+    </div>
+    <div class="div2">
+    <div class="login-form">
+        <form>
+            <input type="text" placeholder="Username" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+            <a href="#" class="forgot-password">Forgot Password?</a>
+        </form>
+      </div>
+      
+  </div>
+</div> 
+
+
+<div class="center-content">
+    <h1>welcome!</h1>
+    <h2 style="color:lavender">A WebApp To Scan InSecure & Fraud Links</h2>
+</div>
+<div class="signup-link">
+    <p>Don't have an account? <a href="signup.html" style="color:darkred">Signup</a></p>
+</div>
+      
+</body>
+</html>
